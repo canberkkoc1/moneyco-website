@@ -11,7 +11,7 @@ export default function Home() {
       <section className="bg-gradient-to-b from-blue-50 to-white">
         <div className="container mx-auto px-4 py-20">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
@@ -24,8 +24,8 @@ export default function Home() {
                 Harcamalarınızı takip edin, bütçenizi yönetin ve finansal hedeflerinize ulaşın.
                 Tüm finansal ihtiyaçlarınız için tek uygulama.
               </p>
-              <a 
-                href="https://apps.apple.com/tr/app/money-co/id6746875965" 
+              <a
+                href="https://apps.apple.com/tr/app/money-co/id6746875965"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
@@ -33,7 +33,7 @@ export default function Home() {
                 App Store&apos;dan İndir
               </a>
             </motion.div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
@@ -60,7 +60,7 @@ export default function Home() {
             Neden Money Co?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -76,7 +76,7 @@ export default function Home() {
               </p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -92,7 +92,7 @@ export default function Home() {
               </p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
